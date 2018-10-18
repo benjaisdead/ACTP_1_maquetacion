@@ -1,9 +1,9 @@
 /* Global Styles */
-li, a {
+li {
   font-family: 'Open Sans', sans-serif;
 }
 
-h1, h3 {
+h1, h3, a {
   font-family: font-family: 'Raleway', sans-serif;
   font-weight: 700;
 }
@@ -212,4 +212,59 @@ padding-left: 40px;
 .about__caption_bottom p {
   font-size: 1em;
   color: #707070;
+}
+
+/* Call to Action */
+.call-to-action {
+  background-color: #E56353;
+  size: cover;
+  text-align: center;
+}
+.call-to-action h1 {
+  margin-top: 50px;
+  color: #fff;
+}
+.button_tia-tomate {
+  background-color: #fff;
+  border-radius: 30px;
+  color: #707070;
+  font-size: 1.4em;
+  font-family: font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  padding-left: 40px;
+  padding-right: 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  margin-bottom: 50px;
+}
+
+/* Footer */
+.footer_tia-tomate {
+  background-color: #686963;
+  padding: 30px;
+}
+.footer_tia-tomate-social {
+  height: 70px;
+  width: 70px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.footer_tia-tomate-social-icon {
+  color: #686963;
+  position: absolute;
+  margin: auto;
+  font-size: 50px;
+  text-align: center;
+}
+.footer_tia-tomate ul {
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 70px;
+  color: #fff;
+}
+.footer_tia-tomate a {
+  color: #fff;
 }
